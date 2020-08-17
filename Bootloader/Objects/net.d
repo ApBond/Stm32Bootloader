@@ -1,0 +1,14 @@
+.\objects\net.o: lib\src\net.c
+.\objects\net.o: .\lib\inc\net.h
+.\objects\net.o: .\CMSIS\inc\stm32f10x.h
+.\objects\net.o: .\CMSIS\inc\core_cm3.h
+.\objects\net.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\net.o: .\CMSIS\inc\system_stm32f10x.h
+.\objects\net.o: .\lib\inc\enc28j60.h
+.\objects\net.o: .\lib\inc\net.h
+.\objects\net.o: .\lib\inc\uart.h
+.\objects\net.o: .\lib\inc\delay.h
+.\objects\net.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\net.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\net.o: .\lib\inc\arp.h
+.\objects\net.o: .\lib\inc\tcp.h

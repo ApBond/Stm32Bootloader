@@ -1,0 +1,16 @@
+.\objects\tcp.o: lib\src\tcp.c
+.\objects\tcp.o: .\lib\inc\tcp.h
+.\objects\tcp.o: .\CMSIS\inc\stm32f10x.h
+.\objects\tcp.o: .\CMSIS\inc\core_cm3.h
+.\objects\tcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tcp.o: .\CMSIS\inc\system_stm32f10x.h
+.\objects\tcp.o: .\lib\inc\enc28j60.h
+.\objects\tcp.o: .\lib\inc\net.h
+.\objects\tcp.o: .\lib\inc\enc28j60.h
+.\objects\tcp.o: .\lib\inc\uart.h
+.\objects\tcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\tcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\tcp.o: .\lib\inc\arp.h
+.\objects\tcp.o: .\lib\inc\net.h
+.\objects\tcp.o: .\lib\inc\tcp.h
+.\objects\tcp.o: .\lib\inc\delay.h

@@ -1,0 +1,116 @@
+Dependencies for Project 'Bootloader', Target 'Bootloader': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\Startup\startup_stm32f10x_md_vl.s)(0x5F0C950F)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Bootloader-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 530" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f10x_md_vl.lst --xref -o .\objects\startup_stm32f10x_md_vl.o --depend .\objects\startup_stm32f10x_md_vl.d)
+F (.\CMSIS\src\core_cm3.c)(0x4C0CACDE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\inc -I ..\Bootloader -I .\Code\inc -I .\lib\inc-I.\RTE\_Bootloader-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_MD -D_RTE_-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+F (.\CMSIS\src\system_stm32f10x.c)(0x4D788300)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\inc -I ..\Bootloader -I .\Code\inc -I .\lib\inc-I.\RTE\_Bootloader-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_MD -D_RTE_-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+F (.\Code\src\main.c)(0x5F340D0D)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\inc -I ..\Bootloader -I .\Code\inc -I .\lib\inc-I.\RTE\_Bootloader-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_MD -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\Code\inc\main.h)(0x5F2D3CDE)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+I (.\lib\inc\flash.h)(0x5F3060A7)
+I (.\lib\inc\delay.h)(0x5F33EE19)
+I (.\lib\inc\rcc.h)(0x5F0EE1C5)
+I (.\lib\inc\uart.h)(0x5F0F3078)
+I (.\lib\inc\enc28j60.h)(0x5F2411DC)
+I (.\lib\inc\net.h)(0x5F2D89D8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E5396AC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E5396AC)
+I (.\lib\inc\arp.h)(0x5F24236C)
+I (.\lib\inc\tcp.h)(0x5F302571)
+F (.\lib\src\arp.c)(0x5F181A10)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\inc -I ..\Bootloader -I .\Code\inc -I .\lib\inc-I.\RTE\_Bootloader-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_MD -D_RTE_-o .\objects\arp.o --omf_browse .\objects\arp.crf --depend .\objects\arp.d)
+I (.\lib\inc\arp.h)(0x5F24236C)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+I (.\lib\inc\enc28j60.h)(0x5F2411DC)
+I (.\lib\inc\net.h)(0x5F2D89D8)
+I (.\lib\inc\uart.h)(0x5F0F3078)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E5396AC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E5396AC)
+I (.\lib\inc\tcp.h)(0x5F302571)
+I (.\lib\inc\delay.h)(0x5F33EE19)
+F (.\lib\src\delay.c)(0x5F149223)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\inc -I ..\Bootloader -I .\Code\inc -I .\lib\inc-I.\RTE\_Bootloader-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_MD -D_RTE_-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (.\lib\inc\delay.h)(0x5F33EE19)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+F (.\lib\src\enc28j60.c)(0x5F3005BD)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\inc -I ..\Bootloader -I .\Code\inc -I .\lib\inc-I.\RTE\_Bootloader-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_MD -D_RTE_-o .\objects\enc28j60.o --omf_browse .\objects\enc28j60.crf --depend .\objects\enc28j60.d)
+I (.\lib\inc\enc28j60.h)(0x5F2411DC)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+I (.\lib\inc\net.h)(0x5F2D89D8)
+I (.\lib\inc\uart.h)(0x5F0F3078)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E5396AC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E5396AC)
+I (.\lib\inc\arp.h)(0x5F24236C)
+I (.\lib\inc\tcp.h)(0x5F302571)
+I (.\lib\inc\delay.h)(0x5F33EE19)
+F (.\lib\src\net.c)(0x5F2D5D70)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\inc -I ..\Bootloader -I .\Code\inc -I .\lib\inc-I.\RTE\_Bootloader-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_MD -D_RTE_-o .\objects\net.o --omf_browse .\objects\net.crf --depend .\objects\net.d)
+I (.\lib\inc\net.h)(0x5F2D89D8)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+I (.\lib\inc\enc28j60.h)(0x5F2411DC)
+I (.\lib\inc\uart.h)(0x5F0F3078)
+I (.\lib\inc\delay.h)(0x5F33EE19)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E5396AC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E5396AC)
+I (.\lib\inc\arp.h)(0x5F24236C)
+I (.\lib\inc\tcp.h)(0x5F302571)
+F (.\lib\src\rcc.c)(0x5EFC5DBA)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\inc -I ..\Bootloader -I .\Code\inc -I .\lib\inc-I.\RTE\_Bootloader-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_MD -D_RTE_-o .\objects\rcc.o --omf_browse .\objects\rcc.crf --depend .\objects\rcc.d)
+I (.\lib\inc\rcc.h)(0x5F0EE1C5)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+F (.\lib\src\tcp.c)(0x5F302A68)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\inc -I ..\Bootloader -I .\Code\inc -I .\lib\inc-I.\RTE\_Bootloader-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_MD -D_RTE_-o .\objects\tcp.o --omf_browse .\objects\tcp.crf --depend .\objects\tcp.d)
+I (.\lib\inc\tcp.h)(0x5F302571)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+I (.\lib\inc\enc28j60.h)(0x5F2411DC)
+I (.\lib\inc\net.h)(0x5F2D89D8)
+I (.\lib\inc\uart.h)(0x5F0F3078)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E5396AC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E5396AC)
+I (.\lib\inc\arp.h)(0x5F24236C)
+I (.\lib\inc\delay.h)(0x5F33EE19)
+F (.\lib\src\uart.c)(0x5F2428A5)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\inc -I ..\Bootloader -I .\Code\inc -I .\lib\inc-I.\RTE\_Bootloader-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_MD -D_RTE_-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (.\lib\inc\uart.h)(0x5F0F3078)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+F (.\lib\src\udp.c)(0x5F1818EC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\inc -I ..\Bootloader -I .\Code\inc -I .\lib\inc-I.\RTE\_Bootloader-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_MD -D_RTE_-o .\objects\udp.o --omf_browse .\objects\udp.crf --depend .\objects\udp.d)
+I (.\lib\inc\udp.h)(0x5F242370)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+I (.\lib\inc\enc28j60.h)(0x5F2411DC)
+I (.\lib\inc\net.h)(0x5F2D89D8)
+I (.\lib\inc\uart.h)(0x5F0F3078)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E5396AC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E5396AC)
+I (.\lib\inc\arp.h)(0x5F24236C)
+I (.\lib\inc\tcp.h)(0x5F302571)
+I (.\lib\inc\delay.h)(0x5F33EE19)
+F (.\lib\src\flash.c)(0x5F306069)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\inc -I ..\Bootloader -I .\Code\inc -I .\lib\inc-I.\RTE\_Bootloader-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F10X_MD -D_RTE_-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
+I (.\lib\inc\flash.h)(0x5F3060A7)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
